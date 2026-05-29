@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+body {
+  font-family: "Inter", sans-serif;
+}
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.form-card {
+  width: 552px;
+  height: 832px;
+  border: 2px solid red;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+  padding: 30px 64px 10px 64px;
+}
+
+.header-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.premium,
+.price {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.month {
+  font-size: 16px;
+}
+
+.header-desc {
+  color: #212628;
+  font-size: 18px;
+  line-height: 23px;
+  opacity: 0.6;
+}
+
+.sign-up-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 27px;
+  margin-top: 43px;
+}
+
+input {
+  height: 54px;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  padding-left: 24px;
+  padding-right: 54px;
+  display: block;
+  outline: none;
+  width: 100%;
+}
+
+input:hover {
+  border: 1px solid orange;
+}
+
+input:focus {
+  border: 1px solid red;
+}
+
+.card-input {
+  width: 100%;
+  /* border: 2px solid orangered; */
+  position: relative;
+}
+
+.card-icon {
+  position: absolute;
+  top: 18px;
+  right: 25px;
+}
+
+.submit-btn {
+  width: 364px;
+  height: 64px;
+  border-radius: 32px;
+  border: 0px;
+  background: linear-gradient(
+    to right,
+    #c23584 0%,
+    #e2306c 24%,
+    #f77736 84%,
+    #fa963e 100%
+  );
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.sale {
+  color: #fff;
+  opacity: 0.6;
+  text-decoration: line-through;
+  cursor: pointer;
+}
